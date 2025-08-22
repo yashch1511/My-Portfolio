@@ -16,10 +16,7 @@ export function ContactSection() {
   const [loading, setLoading] = useState(false)
   const sectionRef = useRef<HTMLElement>(null)
   
-useEffect(() => {
-  console.log("API Key:", process.env.REACT_APP_FIREBASE_API_KEY);
-  console.log("Project ID:", process.env.REACT_APP_FIREBASE_PROJECT_ID);
-}, []);
+
 
   
 

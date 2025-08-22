@@ -13,7 +13,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-console.log("Firebase 1API Key:", process.env.NEXT_PUBLIC_FIREBASE_API_KEY);
+
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app); // Export Firestore for storing messages
